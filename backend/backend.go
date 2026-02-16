@@ -25,7 +25,7 @@ type backend struct {
 func initBackend() (*backend, error) {
 	var b backend
 	b.Backend = &framework.Backend{
-		Help: "The secp256k1 secret backend provides a secure way to interact with secp256k1 keys",
+		Help: "The atcrypto secret backend provides a secure way to interact with did:plc rotation keys",
 		Paths: framework.PathAppend(
 			b.paths(),
 		),
