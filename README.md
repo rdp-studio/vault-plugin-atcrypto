@@ -90,7 +90,7 @@ Response:
 {
   "data": {
     "exportable": false,
-    "public_key": "did:key:z6Mk..."
+    "public_key": "z6Mk..."
   }
 }
 ```
@@ -113,8 +113,8 @@ Response:
 ```json
 {
   "data": {
-    "public_key": "did:key:z6Mk...",
-    "private_key": "did:key:z6Mk..."
+    "public_key": "z6Mk...",
+    "private_key": "z6Mk..."
   }
 }
 ```
